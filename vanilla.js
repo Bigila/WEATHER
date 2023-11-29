@@ -30,7 +30,7 @@ function showData() {
         return response.json();
     })
     .then(data => {
-        document.querySelector("body").style.backgroundColor = 'black';
+        
         document.querySelector(".imge").style.opacity = 1;
         document.querySelector(".items").style.opacity = 1;
         
